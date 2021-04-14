@@ -1,0 +1,16 @@
+{
+	"name" : "huvema/catalogextracolumn",
+	"description" : "Huvema Catalog Extra Column",
+	"require" : {
+		"php" : "~7.2.0|~7.3.0|~7.4.0"
+	},
+	"type" : "magento2-module",
+	"autoload" : {
+		"files" : [
+			"registration.php"
+		],
+		"psr-4" : {
+			"Huvema\\CatalogExtraColumn\\" : ""
+		}
+	}
+}
